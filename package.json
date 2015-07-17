@@ -2,7 +2,7 @@
   "name": "po2json2po",
   "description": "Convert PO files to JSON or vice-versa",
   "version": "0.4.1",
-  "homepage": "",
+  "homepage": "https://github.com/mydea/po2json2po",
   "author": {
     "name": "Francesco Novy",
     "email": "francesco@cropster.com"
@@ -34,10 +34,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikeedwards/po2json.git"
+    "url": "git:////github.com/mydea/po2json2po.git"
   },
   "bugs": {
-    "url": "https://github.com/mikeedwards/po2json/issues"
+    "url": "https://github.com/mydea/po2json2po/issues"
   },
   "licenses": [
     {

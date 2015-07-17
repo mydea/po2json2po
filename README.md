@@ -6,14 +6,16 @@ This project is a fork/extension of [po2json](https://github.com/mikeedwards/po2
 While po2json works nicely to convert .po files to .json format, it does not allow a conversion in the other direction (.json --> .po). 
 
 ## Getting Started
-Install the module with: `npm install po2json2po`
+Install the module with: `npm install po2json2po -g`
 
 ## Usage
 Convert .po to .json
-```po2json2po messages.po messages.json --format "ember-i18n"```
+
+    po2json2po messages.po messages.json --format "ember-i18n"
 
 Convert .json to .po
-```po2json2po messages.json messages.po```
+
+    po2json2po messages.json messages.po
 
 ## Detailed Documentation
 For detailed documentation and additional usage, see the [po2json](https://github.com/mikeedwards/po2json) documentation.
