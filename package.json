@@ -1,7 +1,7 @@
 {
   "name": "po2json2po",
   "description": "Convert PO files to JSON or vice-versa",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "homepage": "https://github.com/mydea/po2json2po",
   "author": {
     "name": "Francesco Novy",
@@ -46,7 +46,7 @@
     }
   ],
   "bin": {
-    "po2json": "bin/po2json2po"
+    "po2json2po": "bin/po2json2po"
   },
   "main": "./lib/po2json2po",
   "engines": {
@@ -65,6 +65,7 @@
     "gettext",
     "po"
   ],
+  "preferGlobal": "true",
   "dependencies": {
     "nomnom": "1.8.1",
     "gettext-parser": "1.1.0"
